@@ -1,5 +1,5 @@
 # sms-sender
-Open source sms sender with custom Id using Twilio API
+Open source 🐍 sms sender with custom sender ID using Twilio API
 
 -----------------------
 
