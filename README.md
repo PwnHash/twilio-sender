@@ -1,4 +1,4 @@
-# sms-sender
+# Je reçois des rez en brrrr
 Open source 🐍 sms sender with custom sender ID using Twilio API
 
 -----------------------
