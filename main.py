@@ -13,8 +13,12 @@ custom_sender_id = 'YOUR_CUSTOM_SENDER_ID'
 # The message you want to send
 message = 'This is a test message'
 
-# The list of phone numbers you want to send the message to (in E.164 format)
-phone_numbers = ['RECIPIENT_PHONE_NUMBER_1', 'RECIPIENT_PHONE_NUMBER_2', ...]
+# The name of the .txt file containing the list of phone numbers (in E.164 format)
+phone_numbers_file = 'phone_numbers.txt'
+
+# Read the list of phone numbers from the .txt file
+with open(phone_numbers_file, 'r') as f:
+    phone_numbers = f.readlines()
 
 # Create a Twilio client
 client = Client(account_sid, auth_token)
